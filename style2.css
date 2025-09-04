@@ -1,0 +1,65 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 460px 500px 200px;
+    border: 1px solid black;
+}
+
+.child1 {
+    border: 1px dotted green;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2);
+}
+
+.heading {
+    grid-column: 1 / -1; 
+    text-align: center;
+    height: 60px;
+}
+
+.firstbox {
+    width: 180px;
+    height: 100px;
+    margin: 30px;
+}
+
+
+.child2 {
+    border: 1px dotted green;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2);
+}
+
+.secondbox {
+    width: 180px;
+    height: 100px;
+    margin: 30px;
+}
+
+.child3 {
+    border: 1px dotted green;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2);
+}
+
+.thirdbox {
+    width: 180px;
+    height: 100px;
+    margin: 30px;
+}
+
+.child4 {
+    border: 1px dotted green;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2);
+}
+
+.fourthbox {
+    width: 180px;
+    height: 100px;
+    margin: 30px;
+}
